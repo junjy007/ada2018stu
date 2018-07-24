@@ -7,7 +7,9 @@ git pull
 
 **Keep your local backup if you are not an expert on git** -- if you have done some experiment and then get your project updated from the server, git won't overwrite your local modification. However, for new users, this could cause considerable confusion due to potential conflication. So if you use my examples as template for your homework, or have done any modification, make sure you manage your local version well.
 
+Please check our [Welcome Video](https://www.youtube.com/watch?v=qeyV4fe3vTs), the mind-map mentioned in the video is [here](https://sketchboard.me/xA4SQKJWSZcd#/).
 
+### About this project
 Files are organised in weeks. E.g. W0/ contains materials for the preparation week. W1/ contains Jupyter notebooks, and related documents for study in Week 1. 
 
 * Install Anaconda following instructions on its [download page](https://www.anaconda.com/download/). 
@@ -44,5 +46,19 @@ If you have a good gaming notebook with nVidia video cards, you can try pytorch 
 I worked all examples on Python 3.5, since 3.6 got issue with pytorch back in Dec 2017. But I believe Python 3.6 should be fine now (July 2018) for all packages, at least on Mac and Linux. Refer to solutions like [here](https://stackoverflow.com/questions/50185227/problems-installing-and-importing-pytorch) if you encounter version problems. 
 
 
+### About welcome videos
+We have a series of videos to gentlely introduce inexperienced users to data analytics with an example of building a hand-written digit recogniser using deep neural networks. Experienced users can skip some or all clips, but I do recommend everyone to have some hand-on experience before class.
 
+
+[Part 1](https://www.youtube.com/watch?v=1iyONFB1qsY): Prepare computer environment.
+
+[Part 2](https://www.youtube.com/watch?v=YKFzIifrHcQ): Playing with numbers in Python using a numerical library
+
+[Part 3](https://www.youtube.com/watch?v=lsx2_5poOjU): Load the data: convert images (or whatever information) into numbers
+
+[Part 4](https://www.youtube.com/watch?v=4kTOJoP495k): First step investigation: Visualising the data
+
+[Part 5](https://www.youtube.com/watch?v=lUk6ryYhHZM): Build a model for the data
+
+[Part 6](https://www.youtube.com/watch?v=DxQIOhZGr9c): Adjust the model: optimisation
 
